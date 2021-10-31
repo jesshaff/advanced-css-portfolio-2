@@ -5,6 +5,10 @@
   font-family: 'Segoe UI', Tahoma;
   }
   
+  body {
+  background-color:white;
+  }
+  
 nav {
   background: cadetblue;
   width: 100%;
@@ -31,8 +35,8 @@ nav .nav-menu {
 }
 
 .nav-menu ul {
-display: inline-flex;
-float: right;
+  display: inline-flex;
+  float: right;
 }
 
 .nav-menu ul li {
@@ -59,15 +63,33 @@ float: right;
   position: relative;
 }
  .box p {
-   float: right;
-   color: white;
-   background: cadetblue;
-   text-decoration: none;
-   font-size: 25px;
-   font-weight: 600;
-   text-align: left;
+  float: right;
+  color: white;
+  background: cadetblue;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
  }
 
+ .column1 {
+  float: left;
+  width: 150px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 8px;
+  padding-bottom: -10px;
+  font-size: 35px;
+  border-right-style: solid;
+  border-color: black;
+ }
+
+ .column2 {
+  float: right;
+  width: 1100px;
+  padding-left: 5px;
+} 
 
  /*
 .column h2 {
